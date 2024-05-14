@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://youtu.be/2s2sZm5gy-o?feature=shared">Youtube channel</a>
+        <a target="_blank" href="https://github.com/RohitSharma50">Github</a>
+
+    </nav>
+    <div class="value">Height (cm):</div>
+    <input type="number" id="height-input" placeholder="Enter Height">
+
+    <div>Weight (kg):</div>
+    <input type="number" id="weight-input" placeholder="Enter Weight">
+    <div>
+        <button type="submit" onclick="bmiCalculate()">Calculate</button>
+    </div>
+    <div id="result">your BMI is :</div>
+</body>
+
+</html>
