@@ -16,7 +16,10 @@ Go to the project directory
   cd Javascript_Machine_coding
 ```
 
+```bash
+
 open project in vs code and opern live server and view it
+```
 
  After doing this this application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
