@@ -1,18 +1,3 @@
-body {
-    text-align: center;
-}
-
-button {
-    background-color: aqua;
-    border-radius: 6px;
-    padding: 10px 16px;
-    border-color: grey;
-}
-
-input {
-    width: 2rem;
-}
-
 /* navbar */
 
 .nav-bar {
@@ -34,6 +19,7 @@ nav a {
     background-color: aliceblue;
     text-decoration-line: none;
     padding: 5px;
+    text-align: center;
 }
 
 * {
@@ -41,3 +27,26 @@ nav a {
 }
 
 /* navbar */
+
+
+.content {
+    display: grid;
+    place-content: center;
+}
+
+.memeButton {
+
+    width: 15rem;
+    margin: 5px;
+    box-shadow: -1px 5px 10px 5px rgba(5, 5, 5, 0.2);
+
+    margin: 10px 120px;
+}
+
+.image {
+    width: 500px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: -1px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
