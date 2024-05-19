@@ -17,6 +17,7 @@ nav a {
     border-radius: 0.3rem;
     border: solid black;
     background-color: aliceblue;
+    text-align: center;
     text-decoration-line: none;
     padding: 5px;
 }
@@ -26,3 +27,19 @@ nav a {
 }
 
 /* navbar */
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button {
+    align-items: center;
+}
