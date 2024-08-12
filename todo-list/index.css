@@ -1,0 +1,61 @@
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 5px;
+    gap: 1rem;
+    border-bottom: solid 1px #aaa;
+    background-color: #aaa;
+}
+
+nav a {
+    min-width: 9rem;
+    border-radius: 0.3rem;
+    border: solid black;
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    background-color: blueviolet; 
+    max-width: 80vh;
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+    margin: 100px auto 20px; 
+}
+ .todo-list{
+    text-decoration: bold; 
+    margin: 0.5em;
+    font-size: xx-large;  
+} 
+.input{
+    margin: 0.2em  0 0.2em;
+    border-radius: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+input, .button{
+    padding:0.5rem;   
+} 
+.task-container{
+    margin: 0.2em  0 0.2em; 
+    padding: 0.5rem;  
+    display:grid; 
+    justify-content: center;
+} 
+l{
+    justify-content: space-between; 
+    margin: 0.1rem; 
+    padding: 0.1rem; 
+    background-color: aqua;
+}
