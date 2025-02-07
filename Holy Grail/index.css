@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header,
+footer {
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  padding: 20px 0px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: stretch; /* Ensure children stretch to full height */
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  background-color: palevioletred;
+  width: 200px;
+  padding: 20px;
+  display: flex; /* Ensure the content inside stretches */
+  flex-direction: column; /* Stack content vertically */
+}
+
+main {
+  flex: 1; /* Allow the main content to take remaining space */
+  background-color: lightgray; /* Optional: Add a background color to main */
+  padding: 20px; /* Optional: Add padding to main */
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+  }
+  .container,
+  .left,
+  .right {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
