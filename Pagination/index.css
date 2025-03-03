@@ -1,0 +1,56 @@
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 5px;
+  gap: 1rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #aaa;
+}
+
+nav a {
+  min-width: 9rem;
+  border-radius: 0.3rem;
+  border: solid black;
+  background-color: rgb(111, 175, 231);
+  text-align: center;
+  text-decoration-line: none;
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(23, 30, 30);
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#container div {
+  text-align: center;
+}
+
+#container img {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
+button {
+  background-color: rgb(214, 183, 206);
+  height: 30px;
+
+  width: 30px;
+  align-items: center;
+}
+#btn {
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
